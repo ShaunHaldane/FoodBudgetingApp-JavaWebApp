@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/food_budgeting_app" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="shaunH" password="shaunH" 
+               driverClassName="com.mysql.cj.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/food_budgeting_app?useSSL=false&amp;serverTimezone=UTC"/>
+
+</Context>
